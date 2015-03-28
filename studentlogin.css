@@ -7,6 +7,15 @@
    sttd {
        font-size:20px;
    }
+      /* Added below css to remove captcha from being show as it's 
+ automatically being filled */ 
+     form[name="stud_login"] tr:nth-last-of-type(2), 
+form[name="stud_login"] tr:nth-last-of-type(3) { 
+   display: none; 
+    
+} 
+
+/* submit button works well in firefox but problem arises in chrome, will fix that soon! */
     .submit3 {
         background-color: #5b74a8;
     background-image: url("https://facebook.com/rsrc.php/v2/y-/r/dF93ZBvNDG4.png");
